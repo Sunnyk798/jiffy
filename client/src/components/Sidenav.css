@@ -1,0 +1,93 @@
+.sidenav {
+	width: 60px;
+	background-color: var(--black-alt);
+}
+
+.sidenav > a {
+	display: grid;
+	place-items: center;
+	height: 60px;
+	font-weight: 600;
+	font-size: 1.5rem;
+	cursor: pointer;
+	margin-top: 1rem;
+    text-decoration: none;
+    color: unset;
+}
+
+.sidenav > a:hover {
+	color: var(--white);
+}
+
+.sidenav small {
+	font-weight: 300;
+	font-size: 0.7rem;
+}
+
+.upload-icon {
+	color: var(--green);
+}
+
+@media (min-width: 1024px) {
+	.sidenav {
+		width: 160px;
+	}
+
+	.sidenav > a {
+		place-items: unset;
+		align-items: center;
+		grid-template-columns: 60px auto;
+	}
+
+	.sidenav .icon {
+		margin: 0 auto;
+	}
+
+	.sidenav small {
+		font-size: 1rem;
+		font-weight: normal;
+	}
+}
+
+.hamburger {
+    color: black;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 400px){
+    .hamburger {
+        display: unset;
+    }
+
+    .container {
+        grid-template-columns: auto;
+    }
+
+    .sidenav {
+        width: 160px;
+        position: absolute;
+        transition: all 0.4s ease; 
+        z-index: 100;
+    }
+
+    .sidenav > a {
+		place-items: unset;
+		align-items: center;
+		grid-template-columns: 60px auto;
+	}
+
+	.sidenav .icon {
+		margin: 0 auto;
+	}
+
+	.sidenav small {
+		font-size: 1rem;
+		font-weight: normal;
+	}
+
+    .hide {
+        transform: translateX(-160px);
+    }
+}

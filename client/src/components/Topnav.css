@@ -1,0 +1,30 @@
+.navbar {
+	height: 60px;
+	padding: 0.4rem 2%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.navbar > form {
+    width: 80%;
+}
+
+.searchbar {
+	flex: 2;
+    width: 100%;
+	max-width: 360px;
+	min-width: 80px;
+	padding: 0.5rem 0.8rem;
+	border-radius: 50px;
+	border: none;
+	color: var(--white);
+	background-color: var(--black-alt);
+	outline: none;
+}
+
+.bell {
+    font-size: 1.25rem;
+    cursor: pointer;
+}

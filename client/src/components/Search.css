@@ -1,0 +1,23 @@
+.search {
+    padding: 1em;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.search .results > a {
+    display: block;
+    text-decoration: none;
+    color: var(--grey);
+    padding: 1em;
+    background-color: #eee;
+    transition: all 0.4s ease;
+}
+
+.search .results > a:hover {
+    background-color: var(--light-green);
+}
+
+.search .results h2 {
+    margin-top: 0;
+}

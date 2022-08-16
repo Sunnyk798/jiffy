@@ -1,0 +1,14 @@
+.video-list {
+	padding: 0.5rem;
+}
+
+.list {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin-top: 0.5rem;
+}
+
+.list > div {
+	padding: 0.5rem;
+}

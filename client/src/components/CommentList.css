@@ -1,0 +1,46 @@
+.comment-list {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+}
+
+.comment-list input {
+    margin-top: 0.5em;
+    flex-grow: 1;
+    width: auto;
+    padding: 0.6em 1em;
+    border: 0.5px solid var(--green);
+    border-radius: 4px;
+    color: grey;
+}
+
+.flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    margin-bottom: 2em;
+}
+
+.comments img {
+    height: 3em;
+    width: 3em;
+    border-radius: 8px;
+} 
+
+.comments small {
+    font-size: 0.8em;
+}
+
+.comments p {
+    margin: 0.2em auto;
+}
+
+.comments small {
+    font-size: 0.75rem;
+    color: var(--grey);
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 0.9rem;
+}

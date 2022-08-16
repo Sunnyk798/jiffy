@@ -1,0 +1,38 @@
+.notification {
+    position: absolute;
+    right:10px;
+    top: 50px;
+    padding: 1em;
+    background-color: var(--black);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    z-index: 101;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.hide-noti {
+    display: none;
+}
+
+.notification > h3 {
+    margin-top: 0.5em;
+}
+
+.noti-bars {
+    display: block;
+    padding: 0.8em 0;
+    color: var(--grey);
+    text-decoration: none;
+    border-top: 1px solid var(--grey);
+}
+
+.noti-bars > .time {
+    display: block;
+    font-size: 0.8rem;
+}
+
+.noti-bars > .actor {
+    color: var(--green);
+    font-size: 1rem;
+}
